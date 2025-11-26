@@ -2,6 +2,7 @@
 name = "data"
 version = "0.14.5"
 edition = "2024"
+readme = "README.md"
 
 [lib]
 doctest = false
@@ -30,7 +31,6 @@ path = "examples/xorb-check/main.rs"
 cas_client = { path = "../cas_client" }
 cas_object = { path = "../cas_object" }
 cas_types = { path = "../cas_types" }
-xet_config = { path = "../xet_config" }
 deduplication = { path = "../deduplication" }
 error_printer = { path = "../error_printer" }
 hub_client = { path = "../hub_client" }
